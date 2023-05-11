@@ -47,8 +47,15 @@ function App() {
   if (isLoading)
     content = <p>Loading...</p>;
 
-  const addMovieHandler = (movie) => {
-    console.log(movie);
+  const addMovieHandler = async (movie) => {
+    const response = await fetch('https://star-wars-movie-list-default-rtdb.firebaseio.com/movies.json', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(movie)
+    })
+    console.log(response);
   }
   return (
     <React.Fragment>
