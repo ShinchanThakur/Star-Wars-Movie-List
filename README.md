@@ -10,6 +10,7 @@ Following are the main topics around which this web app was built -
 - Async/ await
 - Handling loading states
 - Handling Http Errors
+- POST request
 
 ## React/JS Topics covered
 
@@ -47,3 +48,17 @@ This is shown while data is being fetched.
 ### 4. Error handling
 This is shown if there is some error in fetching data.
 ![Error message](./photos-for-readme/error-handling.jpg)
+
+### 5. Add movie
+Here, you can add new movie.
+![Add new movie form](./photos-for-readme/add-movie.jpg)
+
+## To Do
+
+Following things can be done (pending) - 
+
+- Add a proper post method
+- Break the App component into smaller components
+- Add error handling to post method
+- Create our own backend
+- Fetch movies from our own backend
