@@ -16,7 +16,7 @@ Following are the main topics around which this web app was built -
 Following React/JS topics are covered in this web app - 
 
 - Reusable functional components
-- useState, useEffect Hook
+- useState, useEffect, useCallback Hook
 - Functions as props
 - Reusable UI components
 - Inline css/ style prop
@@ -43,3 +43,7 @@ Here, you can view the movies list.
 ### 3. Loading...
 This is shown while data is being fetched.
 ![Loading data](./photos-for-readme/loading.jpg)
+
+### 4. Error handling
+This is shown if there is some error in fetching data.
+![Error message](./photos-for-readme/error-handling.jpg)
