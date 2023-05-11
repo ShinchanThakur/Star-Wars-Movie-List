@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import BackwardCounter from './components/BackwardCounter';
-import ForwardCounter from './components/ForwardCounter';
+import BackwardCounter from './components/Counters/BackwardCounter';
+import ForwardCounter from './components/Counters/ForwardCounter';
 
 function App() {
 
