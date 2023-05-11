@@ -62,3 +62,4 @@ Following things can be done (pending) -
 - Add error handling to post method
 - Create our own backend
 - Fetch movies from our own backend
+- Authorise only admins to add new movies
